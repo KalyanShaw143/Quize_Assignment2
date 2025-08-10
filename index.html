@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Create Your Quiz</h1>
+
+    <div class="form-container">
+        <label>Question</label>
+        <input type="text" id="questionText" placeholder="Enter your question">
+
+        <label>Option A</label>
+        <input type="text" id="optionA" placeholder="Option A">
+
+        <label>Option B</label>
+        <input type="text" id="optionB" placeholder="Option B">
+
+        <label>Option C</label>
+        <input type="text" id="optionC" placeholder="Option C">
+
+        <label>Option D</label>
+        <input type="text" id="optionD" placeholder="Option D">
+
+        <label>Correct Answer</label>
+        <select id="correctAnswer">
+            <option value="">Select Correct Option</option>
+            <option value="A">Option A</option>
+            <option value="B">Option B</option>
+            <option value="C">Option C</option>
+            <option value="D">Option D</option>
+        </select>
+
+        <button onclick="addQuestion()">Add Question</button>
+    </div>
+
+    <div class="question-list" id="questionList"></div>
+
+    <button id="btn1" onclick="generateLink()">GenerateLink</button>
+<script src="script.js"></script>
+
+
+</body>
+
+</html>

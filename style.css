@@ -1,0 +1,97 @@
+        body {
+            font-family: Arial, sans-serif;
+            background: #84aad0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .form-container {
+            background: #b0e55a;
+            padding: 20px 50px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input,
+        select,
+        button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            border: 1px solid #b56565;
+            border-radius: 4px;
+        }
+
+        button {
+            background: #28a745;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #218838;
+        }
+
+        .question-list {
+            margin-top: 20px;
+        }
+
+        .question-item {
+            background: #e9ecef;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+        }
+
+        .question-item button {
+            max-width: 100px;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 6px 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .question-item button:hover {
+            background-color: #c0392b;
+        }
+
+        #quiz-container {
+            border-radius: 8px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #btn1 {
+            max-width: 120px;
+            border: 1px solid #b56565;
+            background-color: #0b3763;
+        }
+
+        #result {
+            padding: 20px 50px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        #submitBtn {
+            width: 80px;
+            margin: auto;
+        }
